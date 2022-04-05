@@ -1,0 +1,197 @@
+.game {
+  width: 65vw;
+  height: 70vh;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -51%);
+  background-size: 100% 100%;
+  border-bottom: 3px rgb(0, 0, 0) solid;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.ram {
+  position: absolute;
+  width: 42vw;
+  height: 59vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("https://i.imgur.com/2FHph2J.png");
+  background-size: 100% 100%;
+}
+
+.level1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: calc(36vw - 4px);
+  height: 50vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(calc(-50% - 3px), -51%);
+}
+.level1 div {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  vertical-align: middle;
+  position: relative;
+}
+.level1 div img {
+  position: absolute;
+  height: 12vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.orange1 {
+  background-image: url("https://i.imgur.com/pAmNLKt.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.orange2 {
+  background-image: url("https://i.imgur.com/gaSDzEZ.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.orange3 {
+  background-image: url("https://i.imgur.com/3SVaiwt.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.orange4 {
+  background-image: url("https://i.imgur.com/hneuq2L.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.orange5 {
+  background-image: url("https://i.imgur.com/vkMGXOq.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.orange6 {
+  background-image: url("https://i.imgur.com/XvZR17w.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.orange7 {
+  background-image: url("https://i.imgur.com/FETe50S.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.orange8 {
+  background-image: url("https://i.imgur.com/rZXrsJh.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lemon1 {
+  background-image: url("https://i.imgur.com/HxWDtJQ.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lemon2 {
+  background-image: url("https://i.imgur.com/T3ZeMt3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lemon3 {
+  background-image: url("https://i.imgur.com/rOH3tvd.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lemon4 {
+  background-image: url("https://i.imgur.com/4QW3GmT.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lemon5 {
+  background-image: url("https://i.imgur.com/D4lUG2b.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lemon6 {
+  background-image: url("https://i.imgur.com/4nhfOC5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lemon7 {
+  background-image: url("https://i.imgur.com/C0Ywv2k.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lemon8 {
+  background-image: url("https://i.imgur.com/zEuPWKm.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lemon9 {
+  background-image: url("https://i.imgur.com/5uBGmap.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lemon10 {
+  background-image: url("https://i.imgur.com/dVSiIg5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lemon11 {
+  background-image: url("https://i.imgur.com/69YzStO.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.notactive {
+  background-color: rgba(242, 242, 242, 0);
+}
+
+.active {
+  background-image: url("https://i.imgur.com/pKikZgk.png");
+}
+
+.active2 {
+  background-image: url("https://i.imgur.com/CD0aPMV.png");
+}/*# sourceMappingURL=Level1.module.css.map */

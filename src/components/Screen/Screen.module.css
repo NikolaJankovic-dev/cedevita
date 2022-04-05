@@ -1,0 +1,13 @@
+.screen {
+  width: 65vw;
+  height: 70vh;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -51%);
+  background-image: url("https://i.imgur.com/yjjrlFe.png");
+  background-size: 100% 100%;
+  border-bottom: 3px rgb(0, 0, 0) solid;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}/*# sourceMappingURL=Screen.module.css.map */

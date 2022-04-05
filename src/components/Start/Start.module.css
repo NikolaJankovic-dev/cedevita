@@ -1,0 +1,26 @@
+.start {
+  width: 65vw;
+  height: 70vh;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -51%);
+  background-image: url("https://i.imgur.com/gGzC72P.png");
+  background-size: 100% 100%;
+  border-bottom: 3px rgb(0, 0, 0) solid;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.start button {
+  background-image: url("https://i.imgur.com/njE4Phw.png");
+  background-size: 100% 100%;
+  width: 18vw;
+  height: 4.5vh;
+  outline: none;
+  border: none;
+  position: absolute;
+  bottom: 11vh;
+  left: 9vw;
+  background-color: transparent;
+  cursor: pointer;
+}/*# sourceMappingURL=Start.module.css.map */

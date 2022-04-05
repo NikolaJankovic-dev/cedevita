@@ -1,0 +1,13 @@
+.gameOver {
+  width: calc(65vw + 4px);
+  height: calc(70vh + 2px);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("https://i.imgur.com/cK8ULLy.png");
+  background-size: 100% 100%;
+  border-bottom: 3px rgb(0, 0, 0) solid;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}/*# sourceMappingURL=GameOver.module.css.map */

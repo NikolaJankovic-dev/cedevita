@@ -1,0 +1,51 @@
+.country {
+  width: 65vw;
+  height: 70vh;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -51%);
+  background-image: url("https://i.imgur.com/HBcvu2v.png");
+  background-size: 100% 100%;
+  border-bottom: 3px rgb(0, 0, 0) solid;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.country button {
+  background-size: 100% 100%;
+  width: 22vw;
+  height: 3.5vh;
+  outline: none;
+  border: none;
+  margin: 0.7vh 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.cro {
+  background-image: url("https://i.imgur.com/UHZCuJk.png");
+}
+
+.slo {
+  background-image: url("https://i.imgur.com/ZuEFeKY.png");
+}
+
+.srb {
+  background-image: url("https://i.imgur.com/gGVEsuo.png");
+}
+
+.bih {
+  background-image: url("https://i.imgur.com/VhcmxKT.png");
+}
+
+.mac {
+  background-image: url("https://i.imgur.com/ZZoaQmV.png");
+}
+
+.mne {
+  background-image: url("https://i.imgur.com/ZMfYf5P.png");
+}/*# sourceMappingURL=Country.module.css.map */
